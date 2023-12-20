@@ -2,7 +2,7 @@
   <el-dialog
     :visible="visible"
     @close="$emit('update:visible', false)"
-    width="600px"
+    width="800px"
     class="c-Result"
     :append-to-body="true"
   >
@@ -127,7 +127,7 @@ export default {
     }
     .card {
       display: inline-block;
-      // width: 40px;
+      width: 40px;
       padding: 0 5px;
       line-height: 30px;
       text-align: center;
