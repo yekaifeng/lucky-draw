@@ -63,6 +63,7 @@ Email: vito.z@qq.com
 ## 项目构建 
 
 ~~~
+wget https://nodejs.org/download/release/v14.21.3/node-v14.21.3-linux-x64.tar.gz
 npm install --unsafe-perm
 npm run serve
 
