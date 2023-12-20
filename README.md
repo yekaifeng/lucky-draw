@@ -56,8 +56,17 @@
 
 Email: vito.z@qq.com
 
-![payimg](./public/pay.png)
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## 项目构建 
+
+~~~
+npm install --unsafe-perm
+npm run serve
+
+  App running at:
+  - Local:   http://localhost:8080/ 
+  - Network: http://172.26.7.172:8080/
+~~~
