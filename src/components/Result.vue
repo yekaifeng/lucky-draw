@@ -2,7 +2,7 @@
   <el-dialog
     :visible="visible"
     @close="$emit('update:visible', false)"
-    width="1200px"
+    width="1300px"
     class="c-Result"
     :append-to-body="true"
   >
