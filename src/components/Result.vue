@@ -29,7 +29,7 @@
       </span>
       <span class="value">
         <span v-if="item.value && item.value.length === 0">
-          暂未抽奖
+          每两轮上下配对
         </span>
         <span
           class="card"
