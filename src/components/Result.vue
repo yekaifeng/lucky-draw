@@ -7,10 +7,10 @@
     :append-to-body="true"
   >
     <div class="dialog-title" slot="title">
-      <span :style="{ fontSize: '18px' }">
+      <span :style="{ fontSize: '25px' }">
         抽奖结果
       </span>
-      <span :style="{ fontSize: '14px', color: '#999', marginLeft: '10px' }">
+      <span :style="{ fontSize: '15px', color: '#999', marginLeft: '10px' }">
         (点击号码可以删除)
       </span>
     </div>
@@ -29,7 +29,7 @@
       </span>
       <span class="value">
         <span v-if="item.value && item.value.length === 0">
-          每两轮上下配对
+          恭喜你，中奖啦！！！
         </span>
         <span
           class="card"
@@ -117,7 +117,7 @@ export default {
   }
   .listrow {
     display: flex;
-    line-height: 30px;
+    line-height: 35px;
     .name {
       width: 80px;
       font-weight: bold;
@@ -127,11 +127,11 @@ export default {
     }
     .card {
       display: inline-block;
-      width: 40px;
+      width: 50px;
       padding: 0 5px;
       line-height: 30px;
       text-align: center;
-      font-size: 18px;
+      font-size: 25px;
       font-weight: bold;
       border-radius: 4px;
       border: 1px solid #ccc;
