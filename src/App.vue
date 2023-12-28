@@ -442,7 +442,7 @@ export default {
   transform: translateX(-50%) translateY(-50%);
   text-align: center;
   p {
-    color: red;
+    color: white;
     font-size: 50px;
     line-height: 120px;
   }
