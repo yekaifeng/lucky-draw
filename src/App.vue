@@ -93,7 +93,7 @@
     <Result :visible.sync="showResult"></Result>
 
     <span class="copy-right">
-      Copyright©zhangyongfeng5350@gmail.com
+      Copyright©GDMuseum
     </span>
 
     <audio
@@ -374,7 +374,7 @@ export default {
 #root {
   height: 100%;
   position: relative;
-  background-image: url('./assets/980.jpg');
+  background-image: url('./assets/2025-bg.jpg');
   background-size: 100% 100%;
   background-position: center center;
   background-repeat: no-repeat;
