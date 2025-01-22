@@ -374,7 +374,7 @@ export default {
 #root {
   height: 100%;
   position: relative;
-  background-image: url('./assets/2025-bg.jpg');
+  background-image: url('./assets/2025-91186.jpg');
   background-size: 100% 100%;
   background-position: center center;
   background-repeat: no-repeat;
