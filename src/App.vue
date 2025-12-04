@@ -93,7 +93,7 @@
     <Result :visible.sync="showResult"></Result>
 
     <span class="copy-right">
-      Copyright©GDMuseum
+       <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024164737号-1</a> Copyright©GDMuseum
     </span>
 
     <audio
