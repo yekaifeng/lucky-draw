@@ -134,14 +134,14 @@ export default {
 
   computed: {
     resCardStyle() {
-      const style = { fontSize: '30px' };
+      const style = { fontSize: '40px' };
       const { number } = this.config;
       if (number < 100) {
-        style.fontSize = '100px';
-      } else if (number < 1000) {
         style.fontSize = '80px';
-      } else if (number < 10000) {
+      } else if (number < 500) {
         style.fontSize = '60px';
+      } else if (number < 10000) {
+        style.fontSize = '40px';
       }
       return style;
     },
@@ -439,8 +439,10 @@ export default {
   top: 50%;
   left: 50%;
   width: 1280px;
+  max-height: 60vh;
   transform: translateX(-50%) translateY(-50%);
   text-align: center;
+  overflow-y: auto;
   p {
     color: red;
     font-size: 50px;
@@ -450,23 +452,25 @@ export default {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    max-width: 1800px;
   }
   .itemres {
     background: #fff;
     width: 160px;
-    height: 160px;
     border-radius: 4px;
     border: 1px solid #ccc;
-    line-height: 160px;
     font-weight: bold;
     color: red;
     margin-right: 20px;
     margin-bottom: 20px;
+    flex: 0 0 auto;
+    max-width: calc(9.09% - 20px);
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    aspect-ratio: 1 / 1;
     .cont {
       display: flex;
       justify-content: center;
